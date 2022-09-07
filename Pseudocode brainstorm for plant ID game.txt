@@ -1,0 +1,46 @@
+Game Design
+
+Point Based Trivia/Memory game for plant id
+Includes matching picture to latin and common names
+
+naming uses
+
+naming dangers
+
+Points = 0
+Lives = 3
+
+while/for loop until max number of points reached or death
+	switch btwn picture or name
+	randomize plant and print chosen object
+	give two random and 1 correct of the opposite object
+	randomize the order
+		three boxes - random between three
+		selected box will contain true
+		other two will have random
+			add exception to prevent duplicates
+		ask for user input
+			if user input matches the selected box number for this instance
+				point += 1
+				i +=1
+				else lives -= 1
+Print: Game over (after updates the lives counter will change to two counters, starvation vs poisioning)			
+End
+Qs
+	can you randomize an array or library while maintaining its integrity?
+	possibly easier to make list (1,2,3,4,5) randomize order (5,1,3,2,4) then reference str(i)
+	Or begin by randomizing library then have i be the place in the list the number occurs
+	the plant ID will be unchanging and therefore work to verify whether it is correct
+	Plant ID(int)	Plant Latin(str)	Plant Common(str)	Photo	Plant Edible?(Bool)	Uses(list)		Plant Toxic?(Bool)	Dangers(list)
+	1		Fakus Latinus		Chicory			img1	true			Edible, teas, tinctures	false			empty
+	2		nightshadus negros	Deadly Nightshade	img2	false			empty			true			vomit, death, etc
+
+eventually add
+flower types
+leaf types
+fruit types
+specific dangers
+specific symptoms
+uses for dangerous
+dangers of edible
+plant stages - seed, seedling, sprout, small, medium, large, flowering, fruiting, fall, dormant, root stage
