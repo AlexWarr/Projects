@@ -1,0 +1,1 @@
+This repository keeps side projects that I am working on independent to class/work
