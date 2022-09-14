@@ -1,0 +1,8 @@
+What do I still need to know
+	Excell tables or matrixes
+	Lists
+	Randomizing lists?
+	referencing matrixes or use of dictionaires
+	how to display photos and align the photo in the matrix
+		This'll probs be with a variable containing the filepath of the image
+	
