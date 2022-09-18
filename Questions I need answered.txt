@@ -1,5 +1,5 @@
 What do I still need to know
-	Excell tables or matrixes
+	Excell tables or matrixes (array seems to be the word I need)
 	Lists
 	Randomizing lists?
 	referencing matrixes or use of dictionaires
